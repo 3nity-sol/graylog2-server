@@ -162,10 +162,6 @@ public class ElasticsearchConfiguration {
         return httpEnabled;
     }
 
-    public boolean isMulticastDiscovery() {
-        return multicastDiscovery;
-    }
-
     public List<String> getUnicastHosts() {
         return unicastHosts;
     }
